@@ -46,7 +46,7 @@ function App() {
   return (
     <>
       <Navbar
-        linkImage='./src/assets/me.jpg'
+        linkImage='./public/assets/me.jpg'
       ></Navbar>
       <Page
         title='Top Projects'
@@ -142,41 +142,41 @@ const Carousel:React.FC<ICarousel> = (props) => {
           projectTitle='Flash Loan'
           projectDescription='Automatically activates an arbitrage crypto trade.'
           projectDescription2='Risk-free money is borrowed and repayed in the same transaction. By specifying unique trading pairs, customers can collect passive income'
-          linkImage='src/assets/slasherPreview.png'
+          linkImage='./public/assets/slasherPreview.png'
           linkUrl='https://github.com/coxKyle/arbitrage_slasher'
         ></PlackContainer>
         <PlackContainer 
           projectTitle='Marketplace'
           projectDescription='Automatically messages marketplace profiles to find deals.'
           projectDescription2='By remaining in browser, facebook detects a human user allowing for competitive advantage.'
-          linkImage='src/assets/previewFacebookMarket.png'
+          linkImage='./public/assets/previewFacebookMarket.png'
           linkUrl='https://github.com/coxKyle/private'
         ></PlackContainer>
         <PlackContainer 
           projectTitle='Arbitrage Finder'
           projectDescription='Notifies customers when an arbitrage opportunity appears.'
           projectDescription2="Specific to one token's ecosystem, these arbitrages are unseen by all of the general use bots."
-          linkImage='src/assets/previewTelegramArbitrageStats.jpg' 
+          linkImage='./public/assets/previewTelegramArbitrageStats.jpg' 
           linkUrl='https://github.com/coxKyle/telegram_bots/blob/main/everrise_arbitrage.py' 
         ></PlackContainer>
         <PlackContainer 
           projectTitle='Telegram Stats'
           projectDescription='Alerts subscribers of otherwise hidden statistics.'
           projectDescription2="This example shows token rewards based on staking."
-          linkImage='src/assets/previewTelegramStakeStats.jpg' 
+          linkImage='./public/assets/previewTelegramStakeStats.jpg' 
           linkUrl='https://github.com/coxKyle/telegram_bots/blob/main/everrise_stats.py' 
         ></PlackContainer>
         <PlackContainer 
           projectTitle='Service Escrow'
           projectDescription='Sell or purchase goods or services without centralization risk.'
           projectDescription2='With a blockchain backend, data is transparent, secure, and incorruptable.'
-          linkImage='src/assets/servicePreview.png' 
+          linkImage='./public/assets/servicePreview.png' 
           linkUrl='https://github.com/coxKyle/escrow_service' 
         ></PlackContainer>
         <PlackContainer 
           projectTitle='ERC1155 Escrow'
           projectDescription='Trade NFTs without trusting a 3rd party.'
-          linkImage='src/assets/previewERC1155.png' 
+          linkImage='./public/assets/previewERC1155.png' 
           linkUrl='https://escrow-erc1155.netlify.app/' 
         ></PlackContainer>
       </div>
