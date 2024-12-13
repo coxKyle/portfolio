@@ -46,7 +46,7 @@ function App() {
   return (
     <>
       <Navbar
-        linkImage='./public/me.jpg'
+        linkImage='./images/me.jpg'
       ></Navbar>
       <Page
         title='Top Projects'
@@ -149,34 +149,34 @@ const Carousel:React.FC<ICarousel> = (props) => {
           projectTitle='Marketplace'
           projectDescription='Automatically messages marketplace profiles to find deals.'
           projectDescription2='By remaining in browser, facebook detects a human user allowing for competitive advantage.'
-          linkImage='/images/previewFacebookMarket.png'
+          linkImage='./images/previewFacebookMarket.png'
           linkUrl='https://github.com/coxKyle/private'
         ></PlackContainer>
         <PlackContainer 
           projectTitle='Arbitrage Finder'
           projectDescription='Notifies customers when an arbitrage opportunity appears.'
           projectDescription2="Specific to one token's ecosystem, these arbitrages are unseen by all of the general use bots."
-          linkImage='/images/dist/previewTelegramArbitrageStats.jpg' 
+          linkImage='./images/dist/previewTelegramArbitrageStats.jpg' 
           linkUrl='https://github.com/coxKyle/telegram_bots/blob/main/everrise_arbitrage.py' 
         ></PlackContainer>
         <PlackContainer 
           projectTitle='Telegram Stats'
           projectDescription='Alerts subscribers of otherwise hidden statistics.'
           projectDescription2="This example shows token rewards based on staking."
-          linkImage='/images/previewTelegramStakeStats.jpg' 
+          linkImage='./images/previewTelegramStakeStats.jpg' 
           linkUrl='https://github.com/coxKyle/telegram_bots/blob/main/everrise_stats.py' 
         ></PlackContainer>
         <PlackContainer 
           projectTitle='Service Escrow'
           projectDescription='Sell or purchase goods or services without centralization risk.'
           projectDescription2='With a blockchain backend, data is transparent, secure, and incorruptable.'
-          linkImage='/images/servicePreview.png' 
+          linkImage='./images/servicePreview.png' 
           linkUrl='https://github.com/coxKyle/escrow_service' 
         ></PlackContainer>
         <PlackContainer 
           projectTitle='ERC1155 Escrow'
           projectDescription='Trade NFTs without trusting a 3rd party.'
-          linkImage='/images/previewERC1155.png' 
+          linkImage='./images/previewERC1155.png' 
           linkUrl='https://escrow-erc1155.netlify.app/' 
         ></PlackContainer>
       </div>
