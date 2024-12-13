@@ -46,7 +46,7 @@ function App() {
   return (
     <>
       <Navbar
-        linkImage='/src/assets/me.jpg'
+        linkImage='./src/assets/me.jpg'
       ></Navbar>
       <Page
         title='Top Projects'
