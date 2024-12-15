@@ -1,8 +1,8 @@
 /* TODO ?
   add resume link
     finish resume
-  family advice
   upload to github pages (or similar)
+  mobile friendly
   upwork?
 */
 
@@ -47,9 +47,10 @@ function App() {
     <>
       <Navbar
         linkImage='./images/me.jpg'
+        linkResume='./images/resume.png'
       ></Navbar>
       <Page
-        title='Top Projects'
+        title='Projects'
         subtitle='Scroll to explore'
         carouselDisplay='flex'
       ></Page>
@@ -57,7 +58,6 @@ function App() {
       <Slider wordList={['Devtools', 'Ethers', 'Excel', 'Git', 'Node', 'React', 'Webpack', 'Agile']}></Slider>
       <Slider wordList={['Algorithms', 'Automation', 'Calculus', 'Cryptocurrency', 'Economics', 'Physics', 'Simulations']}></Slider>
       <Slider wordList={['Adaptable', 'Curious', 'Determined', 'Leader', 'Self Taught', 'Quick Learner']}></Slider>
-      
       <Page
         callToActionDisplay='grid'
       ></Page>
@@ -156,7 +156,7 @@ const Carousel:React.FC<ICarousel> = (props) => {
           projectTitle='Arbitrage Finder'
           projectDescription='Notifies customers when an arbitrage opportunity appears.'
           projectDescription2="Specific to one token's ecosystem, these arbitrages are unseen by all of the general use bots."
-          linkImage='./images/dist/previewTelegramArbitrageStats.jpg' 
+          linkImage='./images/previewTelegramArbitrageStats.jpg' 
           linkUrl='https://github.com/coxKyle/telegram_bots/blob/main/everrise_arbitrage.py' 
         ></PlackContainer>
         <PlackContainer 
